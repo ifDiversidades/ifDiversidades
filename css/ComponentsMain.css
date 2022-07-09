@@ -99,12 +99,16 @@
     }
     .Header-Main__Options li{
         padding: 15px;
+        display: none;
         border-bottom: 1px solid rgba(0, 0, 0, 0.342);
     }
     
     /*Animação hamburguer do menu*/
     .Header-Main__Nav--Active .Header-Main__Options{
         width: 50vw;
+    }
+    .Header-Main__Nav--Active .Header-Main__Options li{
+        display: block;
     }
     .Header-Main__Nav--Active .Header-Main__Hamburger{
         border-top-color: transparent;
