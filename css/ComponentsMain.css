@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
 /*Esses style serão aplicados independetes do largura da tela do usuario até que sejam reescritos*/
 
 /*Header*/
@@ -51,10 +53,10 @@
     display: flex;
     justify-content: center;
 }
-.Footer__Div__Svg{
+.Footer__Div{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 @media (min-width:320px) and (max-width: 800px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 /*Esses style serão aplicados apenas se a largura da tela for maior que 320px e menor que 800px*/   
@@ -115,14 +117,14 @@
         transform: rotate(135deg);
     }
 
-    /*footer*/
-    .Footer__Div{
-        width: 105px;
-    }
-    .Footer__Div__Svg svg{
+    /*Footer*/
+    .Footer__Svg--Instagram{
         width: 25px;
-        height: 25px;
-        margin: 0 5px;
+        max-height: 70px;
+    }
+    .Footer__Svg--Gmail{
+        width: 20px;
+        max-height: 70px;
     }
 }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
@@ -165,18 +167,28 @@
         border-bottom: 2px solid #7F35B2;
     }
 
-    /*footer*/
-    .Footer__Div{
-        width: 120px;
-    }
-    .Footer__Div__Svg svg{
+    /*Footer*/
+    .Footer__Svg--Instagram{
         width: 30px;
-        height: 30px;
-        margin: 0 5px;
+        max-height: 70px;
+    }
+    .Footer__Svg--Gmail{
+        width: 25px;
+        max-height: 70px;
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 1025px*/
+
+    /*Footer*/
+    .Footer__Svg--Instagram{
+        width: 35px;
+        max-height: 70px;
+    }
+    .Footer__Svg--Gmail{
+        width: 30px;
+        max-height: 70px;
+    }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 1281px*/
