@@ -12,11 +12,8 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    height: 100px;
-    width: 90%;
-}
-.Header-Main__Logo{
     height: 65px;
+    width: 95%;
 }
 .Header-Main__Options{
     background-color: white;
@@ -36,7 +33,7 @@
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
-    height: 70px;
+    height: 50px;
     width: 100vw;
 }
 .Footer__Wrapper{
@@ -71,6 +68,11 @@
         cursor: pointer;
         gap: .5rem;
     }
+
+    .Header-Main__Logo{
+        height: 40px;
+    }
+
     .Header-Main__Hamburger{
         border-top: 3px solid;
         width: 40px;
@@ -91,9 +93,9 @@
         box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.171);
         width: 0px;
         height: calc(100vh - 100px);
-        top: 101px;
+        top: 66px;
         right: 0px;
-        transition: .6s;
+        transition: .3s;
         z-index: 1000 ; 
         
     }
@@ -124,11 +126,11 @@
     /*Footer*/
     .Footer__Svg--Instagram{
         width: 25px;
-        max-height: 70px;
+        max-height: 50px;
     }
     .Footer__Svg--Gmail{
         width: 20px;
-        max-height: 70px;
+        max-height: 50px;
     }
 }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
@@ -141,15 +143,29 @@
 /*Esses styles serão aplicados apenas se for a largura for maior que 801px*/
 
     /*header*/
+    .Header-Main__Nav{
+        height: 80px;
+    }
+
+    .Header-Main__Logo{
+        height: 50px;
+    }
+
     .Header-Main__Bnt{
         display: none;
     }
     .Header-Main__Options{
         display: flex;
     }
+
     .Header-Main__Options a{
         display: block;
+        font-size: calc(0.5vw + 13px);
         padding: 15px;
+        transition: .5s;
+    }
+    .Header-Main__Options a:hover{
+        background-color: rgb(245, 245, 245);
     }
     .Header-Main__Href--Home{
         border-bottom: 2px solid;
@@ -172,19 +188,41 @@
     }
 
     /*Footer*/
+    .Footer{
+        height: 60px;
+    }
     .Footer__Svg--Instagram{
         width: 30px;
-        max-height: 70px;
+        max-height: 60px;
     }
     .Footer__Svg--Gmail{
         width: 25px;
-        max-height: 70px;
+        max-height: 60px;
     }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 1025px*/
 
+    /*Header*/
+    .Header-Main__Nav{
+        width: 90%;
+    }
+    .Header-Main__Options a{
+        font-size: calc(0.5vw + 15px);
+    }
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+/*Esses styles serão aplicados apenas se for a largura for maior que 1281px*/
+
+    /*Header*/
+    .Header-Main__Options a{
+        font-size: 22px;
+    }
+
     /*Footer*/
+    .Footer{
+        height: 70px;
+    }
     .Footer__Svg--Instagram{
         width: 35px;
         max-height: 70px;
@@ -193,7 +231,4 @@
         width: 30px;
         max-height: 70px;
     }
-}
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
-/*Esses styles serão aplicados apenas se for a largura for maior que 1281px*/
 }
