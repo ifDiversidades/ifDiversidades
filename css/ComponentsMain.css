@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-
+@font-face {
+    font-family: AttackGraffiti;
+    src: url(../midia/font/aAttackGraffiti.otf);
+}
 
 /*Esses style serão aplicados independetes do largura da tela do usuario até que sejam reescritos*/
 
@@ -169,7 +172,7 @@
     }
     .Header-Main__Href--Home{
         border-bottom: 2px solid;
-        border-image: url('../img/header/borda.png') 5 / 0 0 2px 0 stretch;
+        border-image: url('../midia/img/header/borda.png') 5 / 0 0 2px 0 stretch;
     }
     .Header-Main__Href--Relatos{
         border-bottom: 2px solid #7F35B2;
