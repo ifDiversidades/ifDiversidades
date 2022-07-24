@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
 @font-face {
     font-family: AttackGraffiti;
     src: url(../midia/font/aAttackGraffiti.otf);
@@ -27,17 +27,29 @@
     color: black;
 }
 
+/*componentes comuns*/
+.Wrapper-Main{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.Tittle--Attack{
+    font-family: AttackGraffiti;
+    font-size: calc(0.5vw + 15px);
+}
+.Text--Common{
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.5vw + 10px);
+}
+
 /*footer*/
 .Footer{
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
     height: 50px;
-    width: 100vw;
 }
 .Footer__Wrapper{
     display: flex;
@@ -141,6 +153,11 @@
 }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 600px*/
+
+    /*componentes comuns*/
+    .Wrapper-Main{
+        width: 85%;
+    }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 801px*/
@@ -190,6 +207,11 @@
         border-bottom: 2px solid #7F35B2;
     }
 
+    /*componentes comuns*/
+    .Tittle--Attack{
+        font-size: calc(0.5vw + 20px);
+    }
+
     /*Footer*/
     .Footer{
         height: 60px;
@@ -213,6 +235,14 @@
     .Header-Main__Options a{
         font-size: calc(0.5vw + 15px);
     }
+
+    /*componentes comuns*/
+    .Wrapper-Main{
+        width: 80%;
+    }
+    .Tittle--Attack{
+        font-size: calc(0.5vw + 25px);
+    }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 1281px*/
@@ -222,9 +252,20 @@
         font-size: 22px;
     }
 
+    /*componentes comuns*/
+    .Tittle--Attack{
+        font-size: 31px;
+    }
+    .Text--Common{
+        font-size: 16px;
+    }
+
     /*Footer*/
     .Footer{
         height: 70px;
+    }
+    .Footer__P{
+        font-size: 16px;
     }
     .Footer__Svg--Instagram{
         width: 35px;
