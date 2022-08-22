@@ -42,7 +42,7 @@
 }
 .Text--Common{
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.5vw + 10px);
+    font-size: calc(0.5vw + 13px);
 }
 
 /*footer*/
@@ -259,7 +259,7 @@
         font-size: 50px;
     }
     .Text--Common{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     /*Footer*/
