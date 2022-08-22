@@ -9,10 +9,11 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
-const widthScreen = window.screen.width;
-const FooterMobileP = document.querySelectorAll(".Footer__P")
-
-if(widthScreen < 800){
-  FooterMobileP[0].innerText = "©404";
-  FooterMobileP[1].innerText = "IFB";
-}
+window.addEventListener('resize', function () {
+  const widthScreen = window.screen.width;
+  if(widthScreen < 800){
+    document.querySelectorAll(".Footer__P")[1].innerText = "IFB";
+  }else{
+    document.querySelectorAll(".Footer__P")[1].innerText = "Instituto Federal de Brasília - IFB";
+  }
+});
