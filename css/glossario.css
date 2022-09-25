@@ -130,9 +130,6 @@
     .section-main__Ul li:hover{
         background-color: rgb(247, 245, 245);
     }
-    .section-main__Ul a{
-        color: black;
-    }
 }
 @media (min-width:801px) {
     .Section-Main__Content-Main{
