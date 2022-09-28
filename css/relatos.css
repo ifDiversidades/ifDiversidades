@@ -1,0 +1,24 @@
+.Opening{
+    width: 90vw;
+    margin: 50px auto 30px;
+    max-width: 1200px;
+}
+.Opening__H1{
+    margin: 30px 0;
+    color: #7F35B2;
+}
+.blackboard{
+    background-image: url("../midia/img/relatos/fundoQuadro.png");
+    background-color: rgb(37, 37, 37);
+    background-position: center;
+    background-repeat: repeat;
+    width: 90vw;
+    max-width: 1200px;
+    height: 550px;
+    margin: 30px auto;
+}
+.End{
+    width: 90vw;
+    margin: 30px auto;
+    max-width: 1200px;
+}
