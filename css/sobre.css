@@ -1,0 +1,23 @@
+.sextion1{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 150px auto  0;
+}
+.sextion1__text{
+    width: 300px;
+    max-width: 350px;
+}
+.sextion1__text p{
+    text-align: end;
+}
+.sextion1__text h1{
+    text-align: center;
+}
+.sextion1__img{
+    width: 350px;
+    height: 500px;
+    max-width: 350px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg);
+}
