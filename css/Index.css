@@ -56,6 +56,55 @@
         text-align: center;
         max-width: 900px;
     }
+
+    .Transition-Profile{
+        width: 100%;
+        height: 50px;
+        background-color: #35B0DE;
+        transform: skewY(-2deg);
+        position: relative;
+        top: 10px;
+    }
+    .Section-Profile{
+        background-color: #35B0DE;
+        padding: 20px 0 40px;
+    }
+    .Section-Profile__h2{
+        color: rgb(206, 237, 250);
+    }
+    .Section-Profile__Wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 90%;
+        max-width: 1200px;
+    }
+    .Section-Profile__Slides{
+        margin: 20px 0;
+        width: 70%;
+    }
+    .Section-Profile__Slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px 20px;
+        margin: 20px auto;
+        width: 140px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
+    }
+    .Section-Profile__Slide__Img{
+        box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.548);
+        border-radius: 10px;
+        margin-top: -10px;
+        height: 200px;
+    }
+    .Section-Profile__Slide__P{
+        padding: 20px 0 0;
+        text-align: center;
+    }
 }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ 
     .Home-first__H1{
@@ -71,6 +120,16 @@
     .Home-first__Wrapper{
         width: 50vw;
     }
+
+    .Section-Profile__Slide{
+        width: 170px;
+        border-radius: 17px;
+    }
+    .Section-Profile__Slide__Img{
+        border-radius: 12.5px;
+        margin-top: -12.5px;
+        height: 230px;
+    }
 }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     .Svg-Main{
@@ -83,6 +142,20 @@
     }
     .Home-first__P{
         max-width: 80%;
+    }
+
+    .Transition-Profile{
+        height: 60px;
+        top: 20px;
+    }
+
+    .Section-Profile__Slide{
+        width: 150px;
+    }
+    .Section-Profile__Slide__Img{
+        border-radius: 12.5px;
+        margin-top: -12.5px;
+        height: 210px;
     }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -111,6 +184,16 @@
     .Home-first__P{
         max-width: 100%;
     }
+
+    .Transition-Profile{
+        height: 70px;
+        top: 30px;
+    }
+
+    .Section-Profile{
+        padding: 40px 0 70px;
+    }
+
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
     .Svg-Main{
@@ -130,5 +213,21 @@
 
     .Section2__H2-PixoRetoSP{
         font-size: 100px;
+    }
+
+    .Transition-Profile{
+        height: calc(100px + 0.5vw);
+        transform: skewY(-1.5deg);
+        top: 50px;
+    }
+
+    .Section-Profile__Slide{
+        width: 170px;
+        border-radius: 17px;
+    }
+    .Section-Profile__Slide__Img{
+        border-radius: 12.5px;
+        margin-top: -12.5px;
+        height: 230px;
     }
 }
