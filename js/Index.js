@@ -27,3 +27,29 @@ window.addEventListener('resize', function () {
         HomeFirstWrapper.insertBefore(H1HomeMain, document.querySelector(".Home-first__P"));
     }
 });
+
+const slide = document.querySelector(".Section-Profile__Slides");
+
+new Glider(slide, {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    scrollLock: true,
+    arrows: {
+        prev: '.Section-Profile__Slides-Button-prev',
+        next: '.Section-Profile__Slides-Button-next'
+    },
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 1025,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+    ]
+});
