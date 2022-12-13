@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @media (min-width:320px) {
-    .divArt{
-        width: 63%;
-        padding: 12px 10px;
-        margin: auto;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.171);
+    .Articles{
+        width: 220px;
         margin: 30px auto;
+        display: grid;
+        grid-template-columns: 220px;
+    }
+    .Articles__divArt{
+        padding: 12px 10px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.171);
+        margin: 0 30px 30px 0;
         border-radius: 10px;
-        max-width: 250px;
+        width: 200px;
     }
 
-    .divArt > p{
+    .Articles__divArt > p{
         text-align: left;
         font-family: 'Roboto', sans-serif;
         padding: 10px 0px;
 
     }
 
-    .divArt > h1{
+    .Articles__divArt > h1{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
@@ -34,18 +38,41 @@
     }
 }
 @media (min-width:480px) {
-    main{
-        display: flex;
-        width: 90%;
-        flex-wrap: wrap;
-        margin: auto;
+    .Articles{
+        width: 460px;
+        grid-template-columns: 220px 220px;
+        grid-gap: 0 20px;
     }
     
-    .divArt{
-        min-width: 150px;
+    .Articles__divArt{
+        
     }
 }
-@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
-@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .Articles{
+        width: 500px;
+        grid-template-columns: 240px 240px;
+        grid-gap: 0 20px;
+    }
+    .Articles__divArt{
+        width: 220px;   
+    }
+}
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .Articles{
+        width: 760px;
+        grid-template-columns: 240px 240px 240px;
+        grid-gap: 0 20px;
+    }
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .Articles{
+        width: 870px;
+        grid-template-columns: 270px 270px 270px;
+        grid-gap: 0 30px;
+    }
+    .Articles__divArt{
+        width: 250px;   
+    }
+}
 @media (min-width:1281px) {}

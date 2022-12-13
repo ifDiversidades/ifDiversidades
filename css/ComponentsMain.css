@@ -173,7 +173,7 @@
     }
     .Text--Common{
         font-family: 'Roboto', sans-serif;
-        font-size: calc(0.5vw + 17px);
+        font-size: calc(0.5vw + 14px);
     }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -274,7 +274,7 @@
         font-size: 50px;
     }
     .Text--Common{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /*Footer*/
