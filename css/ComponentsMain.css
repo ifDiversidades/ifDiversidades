@@ -44,6 +44,10 @@
     margin: 20px auto;
     font-size: calc(0.5vw + 20px);
 }
+.Tittle--Common{
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.5vw + 20px);
+}
 .Text--Common{
     font-family: 'Roboto', sans-serif;
     font-size: calc(0.5vw + 13px);
@@ -161,7 +165,7 @@
     /*componentes comuns*/
     .Text--Common{
         font-family: 'Roboto', sans-serif;
-        font-size: calc(0.5vw + 15px);
+        font-size: calc(0.5vw + 13px);
     }
 }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
@@ -173,7 +177,7 @@
     }
     .Text--Common{
         font-family: 'Roboto', sans-serif;
-        font-size: calc(0.5vw + 14px);
+        font-size: calc(0.5vw + 11px);
     }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -225,8 +229,8 @@
     }
 
     /*componentes comuns*/
-    .Tittle--Attack{
-        font-size: calc(0.5vw + 25px);
+    .Tittle--Attack,.Tittle--Common{
+        font-size: calc(0.5vw + 20px);
     }
 
     /*Footer*/
@@ -257,9 +261,6 @@
     .Wrapper-Main{
         width: 80%;
     }
-    .Tittle--Attack{
-        font-size: calc(0.5vw + 30px);
-    }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 /*Esses styles serão aplicados apenas se for a largura for maior que 1281px*/
@@ -270,11 +271,11 @@
     }
 
     /*componentes comuns*/
-    .Tittle--Attack{
+    .Tittle--Attack,.Tittle--Common{
         font-size: 50px;
     }
     .Text--Common{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*Footer*/

@@ -112,7 +112,7 @@
     .section-Ending{
         width: 90vw;
         max-width: 1200px;
-        margin: 150px auto;
+        margin: 50px auto;
         text-align: center;
     }
 }
@@ -169,6 +169,9 @@
         border-radius: 12.5px;
         margin-top: -12.5px;
         height: 210px;
+    }
+    .section-Ending{
+        margin: 80px auto;
     }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
@@ -267,5 +270,8 @@
         border-radius: 12.5px;
         margin-top: -12.5px;
         height: 230px;
+    }
+    .section-Ending{
+        margin: 100px auto;
     }
 }
