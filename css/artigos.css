@@ -43,10 +43,6 @@
         grid-template-columns: 220px 220px;
         grid-gap: 0 20px;
     }
-    
-    .Articles__divArt{
-        
-    }
 }
 @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     .Articles{
