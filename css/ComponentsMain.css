@@ -41,7 +41,8 @@
 .Tittle--Attack{
     font-family: AttackGraffiti;
     text-align: center;
-    margin: 20px auto;
+    margin: auto;
+    letter-spacing: 4px;
     font-size: calc(0.5vw + 20px);
 }
 .Tittle--Common{
@@ -51,7 +52,6 @@
 .Text--Common{
     font-family: 'Roboto', sans-serif;
     font-size: calc(0.5vw + 13px);
-    color: black;
 }
 
 /*footer*/
