@@ -175,6 +175,9 @@
     }
 }
 @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .Home-first__H1{
+        margin: 10vw 10vw 0 0;
+    }
     .Svg-Main{
         width: 40vw;
         height: 50vw;
