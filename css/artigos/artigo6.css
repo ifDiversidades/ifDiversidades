@@ -2,7 +2,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins:wght@200&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    
+
     .titulo-principal{
         font-family: 'Baloo Da 2', cursive;
         font-weight: bold;
@@ -61,7 +61,7 @@
         font-size: 25px;
         color: #000000;
     }
-
+    
     .vejaTbm{
         border-left: solid #FCE300;
         background-color: #fce30042;
@@ -69,11 +69,6 @@
         margin-top: 50px;   
         width: 100%;
         border-radius: 10px;
-    }
-
-    .elementos-especificos{
-        font-weight: bold;
-        color: black;
     }
 }
 @media (min-width:480px) {}
