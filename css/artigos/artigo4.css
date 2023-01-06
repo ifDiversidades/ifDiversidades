@@ -67,8 +67,14 @@
         border-radius: 10px;
     }
 
+    a{
+        text-decoration: none;
+        color: #FCE300;
+    }
+
     a:hover{
         text-decoration: underline;
+        color: #c5b101;
     }
 }
 @media (min-width:480px) {}
