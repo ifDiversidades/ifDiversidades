@@ -1,6 +1,6 @@
 @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     body{
-        background-image: url("/midia/img/videoCast/Background.png");
+        background-image: url("../midia/img/videoCast/Background.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
