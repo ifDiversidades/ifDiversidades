@@ -13,6 +13,7 @@
 /*Header*/
 .Header-Main{
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.192);
+    background-color: white;
 }
 .Header-Main__Nav{
     display: flex;

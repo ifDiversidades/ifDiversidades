@@ -17,14 +17,18 @@
         border-image: url(../midia/img/relatos/testura\ de\ madeira.jpg) 10 round;
         border-radius: 10px;
         width: 90vw;
+        padding: 20px;
         max-width: 1200px;
         margin: 30px auto;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
     }
     .blackboard__PostIt{
         text-align: center;
         padding: 0 0 20px 0;
+        margin: 20px 0;
         height: 250px;
         width: 350px;
         box-sizing: border-box;

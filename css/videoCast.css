@@ -1,4 +1,11 @@
 @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    body{
+        background-image: url("/midia/img/videoCast/Background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
     main{
         max-width: 1600px;
         margin: auto;
@@ -46,8 +53,11 @@
         border-radius: 20px;
         padding: 10px;
         margin-top: 10px;
+        background-color: white;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.24);
         box-sizing: border-box;
+    }
+    .video-List__a{
         display: flex;
     }
     .video-List__Thumbnail{
@@ -57,6 +67,12 @@
     }
     .video-List__Info{
         width: 60%;
+    }
+
+    .Footer{
+        position: fixed;
+        bottom: 00;
+        width: 100vw;
     }
 }
 @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
@@ -83,8 +99,10 @@
         width: 40%;
     }
     .video-List__li{
-        flex-direction: column;
         width: 95%;
+    }
+    .video-List__a{
+        flex-direction: column;
     }
     .video-List__Thumbnail{
         width: 80%;
@@ -100,7 +118,7 @@
         width: 95%;
         height: calc(95% / 1.7);
     }
-    .video-List__li{
+    .video-List__a{
         flex-direction: row;
     }
     .video-List__Thumbnail{
@@ -118,11 +136,5 @@
         max-width: 940px;
         height: calc(50vw / 1.7);
         max-height: 550px;
-    }
-
-    .Footer{
-        position: fixed;
-        bottom: 00;
-        width: 100vw;
     }
 }
