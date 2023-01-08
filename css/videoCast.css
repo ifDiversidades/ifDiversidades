@@ -1,6 +1,6 @@
 @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
     body{
-        background-image: url("../midia/img/videoCast/Background.png");
+        background-image: url('../midia/img/videoCast/background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -87,7 +87,7 @@
     }
     .Video-Main__Iframe{
         width: 95%;
-        height: calc(60% / 1.7);
+        height: calc(60vw / 1.7);
     }
     .Video-Main__Title{
         width: 95%;
@@ -116,7 +116,7 @@
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
     .Video-Main__Iframe{
         width: 95%;
-        height: calc(95% / 1.7);
+        height: calc(60vw / 1.7);
     }
     .video-List__a{
         flex-direction: row;
