@@ -1,5 +1,5 @@
 let H1HomeMain = document.createElement("h1");
-let conteudoNovo = document.createTextNode("O IFB deve ser um lugar de diversidades e inclusão!");
+let conteudoNovo = document.createTextNode("O IFB deve ser um lugar de diversidades e inclusao!");
 H1HomeMain.appendChild(conteudoNovo);
 H1HomeMain.classList.add('Tittle--Attack');
 H1HomeMain.classList.add('Home-first__H1');
