@@ -8,12 +8,3 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
-
-window.addEventListener('resize', function () {
-  const widthScreen = window.screen.width;
-  if(widthScreen < 800){
-    document.querySelectorAll(".Footer__P")[1].innerText = "IFB";
-  }else{
-    document.querySelectorAll(".Footer__P")[1].innerText = "Instituto Federal de Brasília - IFB";
-  }
-});
