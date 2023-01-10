@@ -12,4 +12,4 @@ function FooterPosition() {
 }
 
 window.addEventListener('resize', FooterPosition);
-window.onload = FooterPosition;
+FooterPosition();
