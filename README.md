@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://ifdiversidades.com.br
+<code>https://ifdiversidades.com.br</code>
 
  O projeto consiste em usar a tecnologia e os conhecimentos técnicos do curso disponíveis para criar um site, visando realizar debates sobre problemáticas que envolvem a diversidade de gênero e suas questões. 
  Pretendemos, com isso, possibilitar representatividade às diversidades.
@@ -26,8 +26,8 @@ relações socioculturais: diversidade de gênero e suas questões".
 
 # Authors
 
-<code><a href="https://www.linkedin.com/in/arthur-da-mata-rabelo-5663871b6"><img width="48px" src="https://img.icons8.com/wired/64/000000/linkedin--v1.png" /></a></code><br>
-Arthur Rabelo
+- Arthur Rabelo <code><a href="https://github.com/ArthurUndefined">Github</a></code>
+- Henrique Cardoso <code><a href="https://github.com/CardosoMMV">Github</a></code>
 
 # Grupo do Projeto
 ![grupo](https://github.com/ifDiversidades/ifDiversidades/blob/main/midia/img/readme/404-Grupo.jpeg)
