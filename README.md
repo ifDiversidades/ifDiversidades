@@ -28,3 +28,6 @@ relações socioculturais: diversidade de gênero e suas questões".
 
 <code><a href="https://www.linkedin.com/in/arthur-da-mata-rabelo-5663871b6"><img width="48px" src="https://img.icons8.com/wired/64/000000/linkedin--v1.png" /></a></code><br>
 Arthur Rabelo
+
+# Grupo do Projeto
+![grupo](https://github.com/ifDiversidades/ifDiversidades/blob/main/midia/img/readme/404-Grupo.jpeg)
