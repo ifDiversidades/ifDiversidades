@@ -7,7 +7,7 @@ https://ifdiversidades.com.br
 
  O projeto consiste em usar a tecnologia e os conhecimentos técnicos do curso disponíveis para criar um site, visando realizar debates sobre problemáticas que envolvem a diversidade de gênero e suas questões. 
  Pretendemos, com isso, possibilitar representatividade às diversidades.
- Ao longo do ano foi desenvolvido o site, nele tem diversas informações, tais como podcasts, artigos, glossário, relacionados ao tema "Debate sobre as
+ Foi desenvolvido ao longo do ano , nele tem diversas informações, tais como podcasts, artigos, glossário, relacionados ao tema "Debate sobre as
 relações socioculturais: diversidade de gênero e suas questões".
 
 ## Layout mobile
